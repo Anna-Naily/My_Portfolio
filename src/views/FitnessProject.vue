@@ -94,6 +94,9 @@ export default {
     @media (min-width: 375px) and (max-width: 767px) {
       max-width: 342px;
     }
+    @media (min-width: 320px) and (max-width: 374px) {
+      max-width: 320px;
+    }
   }
   &__bcg {
     background-image: url('@/assets/img/fitnessprojectBcg.png');
@@ -130,7 +133,7 @@ export default {
       text-decoration: none;
 
       transition: 0.3s;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 16px;
         line-height: 32px;
         padding: 10px 14px;
@@ -153,7 +156,7 @@ export default {
 
       color: white;
       margin-top: 340px;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 32px;
         line-height: 36px;
         margin-top: 180px;
@@ -176,7 +179,7 @@ export default {
         font-size: 16px;
         line-height: 20px;
       }
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 14px;
         line-height: 16px;
         flex-direction: column;
@@ -186,7 +189,7 @@ export default {
       }
     }
     &-span {
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         display: flex;
         flex-direction: column;
         row-gap: 5px;
@@ -212,7 +215,7 @@ export default {
       padding-bottom: 30px;
 
       color: white;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 32px;
         line-height: 36px;
       }
@@ -240,7 +243,7 @@ export default {
         font-size: 16px;
         line-height: 20px;
       }
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 16px;
         line-height: 20px;
       }
@@ -279,7 +282,7 @@ export default {
       padding-bottom: 60px;
       display: flex;
       justify-content: space-between;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         flex-direction: column;
         row-gap: 50px;
       }
@@ -290,9 +293,10 @@ export default {
     @media (min-width: 768px) and (max-width: 1279px) {
       width: 300px;
     }
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       width: 100%;
     }
+
     &-heading {
       font-family: 'Ubuntu', sans-serif;
       font-size: 40px;
@@ -302,7 +306,7 @@ export default {
       color: #060c1096;
       padding-bottom: 30px;
       border-bottom: 0.5px solid #060c102f;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 32px;
         line-height: 36px;
       }
@@ -325,9 +329,10 @@ export default {
     @media (min-width: 768px) and (max-width: 1279px) {
       width: 300px;
     }
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       width: 100%;
     }
+
     &-img {
       width: 450px;
       height: 462px;
@@ -338,6 +343,10 @@ export default {
       @media (min-width: 375px) and (max-width: 767px) {
         width: 342px;
         height: 354px;
+      }
+      @media (min-width: 320px) and (max-width: 374px) {
+        width: 320px;
+        height: 332px;
       }
     }
   }
@@ -351,7 +360,7 @@ export default {
       text-align: right;
       margin-left: auto;
       width: 400px;
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         width: 100%;
       }
     }

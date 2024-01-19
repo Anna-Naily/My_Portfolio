@@ -58,6 +58,11 @@ export default {
       padding-top: 12px;
       padding-bottom: 12px;
     }
+    @media (min-width: 320px) and (max-width: 374px) {
+      max-width: 320px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
   }
 }
 </style>

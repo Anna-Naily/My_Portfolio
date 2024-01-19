@@ -51,6 +51,9 @@ export default {
     @media (min-width: 375px) and (max-width: 767px) {
       max-width: 342px;
     }
+    @media (min-width: 320px) and (max-width: 374px) {
+      max-width: 320px;
+    }
   }
   &__content {
     display: flex;
@@ -62,7 +65,7 @@ export default {
     @media (min-width: 1280px) and (max-width: 1919px) {
     }
 
-    @media (min-width: 375px) and (max-width: 1279px) {
+    @media (min-width: 320px) and (max-width: 1279px) {
       flex-direction: column;
       row-gap: 24px;
     }
@@ -86,7 +89,7 @@ export default {
     color: #fff;
 
     order: 0;
-    @media (min-width: 375px) and (max-width: 1279px) {
+    @media (min-width: 320px) and (max-width: 1279px) {
       order: 1;
     }
   }

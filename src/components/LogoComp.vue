@@ -32,7 +32,7 @@ export default {
       font-size: 24px;
       line-height: 32px;
     }
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       display: none;
       font-size: 16px;
       line-height: 20px;
@@ -40,7 +40,7 @@ export default {
     &--green {
       color: #12f7d6;
 
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         display: block;
       }
     }

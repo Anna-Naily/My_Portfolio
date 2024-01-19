@@ -51,13 +51,17 @@ export default {
       width: 350px;
       margin-left: -5px;
     }
+    @media (min-width: 320px) and (max-width: 374px) {
+      width: 330px;
+      margin-left: -5px;
+    }
   }
   &__img {
     width: 500px;
     @media (min-width: 768px) and (max-width: 1279px) {
       width: 400px;
     }
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       width: 230px;
     }
   }
