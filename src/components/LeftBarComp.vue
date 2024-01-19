@@ -24,7 +24,7 @@
           </div>
           <div class="leftbar__item">
             <SvgIcon class="leftbar__item-icon" :name="'icon-link'" />
-            <p class="leftbar__item-text">https://aum-portfolio.vercel.app/</p>
+            <p class="leftbar__item-text">aum-portfolio.vercel.app</p>
           </div>
         </div>
         <ul class="leftbar__stack">
