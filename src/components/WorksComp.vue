@@ -151,7 +151,7 @@ export default {
 
     transition: all 0.3s ease-in-out;
 
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       width: 300px;
     }
 
@@ -183,7 +183,7 @@ export default {
     font-weight: 400;
 
     color: #12f7d6;
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       font-size: 18px;
       line-height: 20px;
     }
@@ -194,7 +194,7 @@ export default {
 
     margin: 15px 0 15px 0;
     padding: 0;
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       flex-wrap: wrap;
       justify-content: flex-start;
       column-gap: 5px;
@@ -216,7 +216,7 @@ export default {
       background-color: #98faec;
 
       border-radius: 24px;
-      @media (min-width: 390px) and (max-width: 767px) {
+      @media (min-width: 375px) and (max-width: 767px) {
         font-size: 14px;
         line-height: 16px;
         font-weight: 400;

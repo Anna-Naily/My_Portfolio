@@ -53,7 +53,7 @@ export default {
       padding-top: 12px;
       padding-bottom: 12px;
     }
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       max-width: 342px;
       padding-top: 12px;
       padding-bottom: 12px;

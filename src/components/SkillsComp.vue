@@ -41,7 +41,7 @@ export default {
       row-gap: 32px;
       align-items: center;
     }
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       flex-wrap: wrap;
       column-gap: 64px;
       row-gap: 32px;
@@ -61,7 +61,7 @@ export default {
   &__icon {
     width: 144px;
     height: 144px;
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       width: 112px;
       height: 112px;
     }

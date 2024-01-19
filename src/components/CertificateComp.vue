@@ -47,7 +47,7 @@ export default {
     @media (min-width: 768px) and (max-width: 1279px) {
       width: 600px;
     }
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       width: 350px;
       margin-left: -5px;
     }
@@ -57,7 +57,7 @@ export default {
     @media (min-width: 768px) and (max-width: 1279px) {
       width: 400px;
     }
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       width: 230px;
     }
   }

@@ -49,7 +49,7 @@ export default {
       margin-top: 64px;
       padding: 32px 24px;
     }
-    @media (min-width: 390px) and (max-width: 767px) {
+    @media (min-width: 375px) and (max-width: 767px) {
       flex-direction: row;
       column-gap: 48px;
       padding: 32px 24px;
