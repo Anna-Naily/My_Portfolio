@@ -29,7 +29,7 @@ export default {
 
     list-style-type: none;
 
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       column-gap: 16px;
 
       font-size: 16px;
@@ -41,7 +41,7 @@ export default {
     color: #ffffff;
     transition: 0.3s;
     &--none {
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         display: none;
       }
     }

@@ -36,7 +36,7 @@ export default {
     margin: 0;
 
     color: #12f7d6;
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       font-size: 40px;
       line-height: 46px;
     }

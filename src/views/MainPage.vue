@@ -112,6 +112,9 @@ export default {
     @media (min-width: 375px) and (max-width: 767px) {
       max-width: 342px;
     }
+    @media (min-width: 320px) and (max-width: 767px) {
+      max-width: 320px;
+    }
   }
   &__welcome {
     background-color: #292f36;
@@ -122,7 +125,7 @@ export default {
       padding-top: 0px;
       margin-top: 78px;
     }
-    @media (min-width: 375px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       padding-top: 0px;
       margin-top: 78px;
     }
@@ -137,7 +140,7 @@ export default {
       text-align: center;
       color: #98faec;
 
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         display: none;
       }
     }
@@ -156,7 +159,7 @@ export default {
         flex-direction: column;
         padding-bottom: 64px;
       }
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         flex-direction: column;
         row-gap: 64px;
         padding-bottom: 64px;
@@ -168,7 +171,7 @@ export default {
     background-size: cover;
     &-item {
       margin-top: 128px;
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         margin-top: 0;
       }
     }
@@ -176,7 +179,7 @@ export default {
       padding-top: 128px;
       padding-bottom: 128px;
 
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         padding-top: 64px;
         padding-bottom: 64px;
       }
@@ -188,7 +191,7 @@ export default {
     &-content {
       padding-top: 128px;
       padding-bottom: 128px;
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         padding-top: 64px;
         padding-bottom: 64px;
       }
@@ -208,7 +211,7 @@ export default {
         right: 70px;
 
         color: #12f7d6;
-        @media (min-width: 375px) and (max-width: 1279px) {
+        @media (min-width: 320px) and (max-width: 1279px) {
           display: none;
         }
       }
@@ -219,7 +222,7 @@ export default {
     &-content {
       padding-top: 128px;
       padding-bottom: 128px;
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         padding-top: 64px;
         padding-bottom: 64px;
       }
@@ -229,7 +232,7 @@ export default {
     background-color: #292f36;
     &-content {
       padding-bottom: 128px;
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         padding-bottom: 64px;
       }
     }
@@ -238,7 +241,7 @@ export default {
     background-color: #1a1e23;
     &-content {
       padding-bottom: 128px;
-      @media (min-width: 375px) and (max-width: 1279px) {
+      @media (min-width: 320px) and (max-width: 1279px) {
         padding-bottom: 64px;
       }
     }

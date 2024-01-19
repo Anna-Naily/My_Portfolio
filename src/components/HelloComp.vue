@@ -45,7 +45,7 @@ export default {
   @media (min-width: 768px) and (max-width: 1279px) {
     width: 100%;
   }
-  @media (min-width: 375px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     align-items: center;
     width: 100%;
   }
@@ -73,7 +73,7 @@ export default {
 
       color: #ffffff;
 
-      @media (min-width: 375px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         font-size: 32px;
         line-height: 36px;
       }

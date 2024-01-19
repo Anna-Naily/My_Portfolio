@@ -26,9 +26,10 @@ export default {
   @media (min-width: 768px) and (max-width: 1279px) {
     display: none;
   }
-  @media (min-width: 375px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     display: none;
   }
+
   &__mouse {
     width: 32px;
     height: 44px;

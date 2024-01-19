@@ -66,6 +66,10 @@ export default {
     width: 360px;
     margin-left: -10px;
   }
+  @media (min-width: 320px) and (max-width: 374px) {
+    width: 340px;
+    margin-left: -10px;
+  }
   &__slide {
     display: flex;
     justify-content: center;
@@ -79,6 +83,9 @@ export default {
       }
       @media (min-width: 375px) and (max-width: 767px) {
         width: 280px;
+      }
+      @media (min-width: 320px) and (max-width: 374px) {
+        width: 260px;
       }
     }
   }
