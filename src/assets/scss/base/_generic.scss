@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+
+    margin: 0;
+    padding: 0;
+}
