@@ -62,7 +62,7 @@ export default {
   @media (min-width: 768px) and (max-width: 1279px) {
     width: 700px;
   }
-  @media (min-width: 390px) and (max-width: 767px) {
+  @media (min-width: 375px) and (max-width: 767px) {
     width: 360px;
     margin-left: -10px;
   }
@@ -77,7 +77,7 @@ export default {
       @media (min-width: 768px) and (max-width: 1279px) {
         width: 600px;
       }
-      @media (min-width: 390px) and (max-width: 767px) {
+      @media (min-width: 375px) and (max-width: 767px) {
         width: 280px;
       }
     }

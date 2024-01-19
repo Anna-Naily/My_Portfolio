@@ -58,7 +58,7 @@ export default {
   display: flex;
   justify-content: space-around;
 
-  @media (min-width: 390px) and (max-width: 1279px) {
+  @media (min-width: 375px) and (max-width: 1279px) {
     flex-wrap: wrap;
     row-gap: 30px;
   }
@@ -70,7 +70,7 @@ export default {
 
   border-radius: 50%;
   cursor: pointer;
-  @media (min-width: 390px) and (max-width: 1279px) {
+  @media (min-width: 375px) and (max-width: 1279px) {
     width: 200px;
   }
 }
@@ -114,7 +114,7 @@ export default {
     -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  @media (min-width: 390px) and (max-width: 1279px) {
+  @media (min-width: 375px) and (max-width: 1279px) {
     font-size: 14px;
     line-height: 18px;
     min-height: 200px;
@@ -203,7 +203,7 @@ export default {
 
   margin-bottom: 2rem;
   position: relative;
-  @media (min-width: 390px) and (max-width: 1279px) {
+  @media (min-width: 375px) and (max-width: 1279px) {
     font-size: 16px;
     line-height: 20px;
   }
