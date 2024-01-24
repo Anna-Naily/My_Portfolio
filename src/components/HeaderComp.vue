@@ -2,7 +2,9 @@
   <div class="header">
     <div class="header__wrapper">
       <div class="header__logo">
-        <LogoComp />
+        <router-link class="header__logo-link" to="/">
+          <LogoComp />
+        </router-link>
       </div>
       <div class="header__menu">
         <MenuComp
@@ -67,6 +69,11 @@ export default {
       max-width: 320px;
       padding-top: 12px;
       padding-bottom: 12px;
+    }
+  }
+  &__logo {
+    &-link {
+      text-decoration: none;
     }
   }
 }
