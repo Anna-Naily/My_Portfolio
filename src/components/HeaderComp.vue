@@ -5,7 +5,12 @@
         <LogoComp />
       </div>
       <div class="header__menu">
-        <MenuComp />
+        <MenuComp
+          @goDocuments="this.$emit('goDocuments')"
+          @goWorks="this.$emit('goWorks')"
+          @goContacts="this.$emit('goContacts')"
+          @goAboutMe="this.$emit('goAboutMe')"
+        />
       </div>
     </div>
   </div>

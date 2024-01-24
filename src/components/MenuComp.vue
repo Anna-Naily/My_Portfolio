@@ -1,10 +1,10 @@
 <template>
   <nav class="menu">
     <ul class="menu__list">
-      <li class="menu__item">Обо мне</li>
-      <li class="menu__item">Работы</li>
-      <li class="menu__item menu__item--none">Документы</li>
-      <li class="menu__item">Контакты</li>
+      <li class="menu__item" @click="this.$emit('goAboutMe')">Обо мне</li>
+      <li class="menu__item" @click="this.$emit('goWorks')">Работы</li>
+      <li class="menu__item menu__item--none" @click="this.$emit('goDocuments')">Документы</li>
+      <li class="menu__item" @click="this.$emit('goContacts')">Контакты</li>
     </ul>
   </nav>
 </template>
