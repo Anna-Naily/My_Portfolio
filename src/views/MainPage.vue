@@ -1,8 +1,13 @@
 <template>
   <div>
-    <HeaderComp />
+    <HeaderComp
+      @goDocuments="goToDocuments"
+      @goWorks="goToWorks"
+      @goContacts="goToContacts"
+      @goAboutMe="goToAboutMe"
+    />
     <main class="main">
-      <section class="main__welcome" id="contacts">
+      <section class="main__welcome" id="contacts" ref="contacts">
         <div class="main--container">
           <h1 class="main__welcome-h1">Developer</h1>
           <div class="main__welcome-information">
@@ -12,7 +17,7 @@
           </div>
         </div>
       </section>
-      <section class="main__aboutme" id="aboutme">
+      <section class="main__aboutme" id="aboutMe" ref="aboutMe">
         <div class="main--container">
           <div class="main__aboutme-content">
             <DownComp />
@@ -33,7 +38,7 @@
           </div>
         </div>
       </section>
-      <section class="main__works" id="works">
+      <section class="main__works" id="works" ref="works">
         <div class="main--container">
           <div class="main__works-content">
             <DownComp />
@@ -50,7 +55,7 @@
           </div>
         </div>
       </section>
-      <section class="main__certificate" id="documents">
+      <section class="main__certificate" id="documents" ref="documents">
         <div class="main--container">
           <div class="main__certificate-content">
             <HeadingComp :title="'Документы'" />
@@ -89,6 +94,25 @@ export default {
     CasesComp,
     HeaderComp,
     CertificateComp,
+  },
+  data() {
+    return {
+      ref: null,
+    };
+  },
+  methods: {
+    goToDocuments() {
+      this.$refs.documents.scrollIntoView({ behavior: 'smooth' });
+    },
+    goToWorks() {
+      this.$refs.works.scrollIntoView({ behavior: 'smooth' });
+    },
+    goToContacts() {
+      this.$refs.contacts.scrollIntoView({ behavior: 'smooth' });
+    },
+    goToAboutMe() {
+      this.$refs.aboutMe.scrollIntoView({ behavior: 'smooth' });
+    },
   },
 };
 </script>
